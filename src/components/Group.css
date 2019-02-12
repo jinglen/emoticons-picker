@@ -1,0 +1,35 @@
+
+.group {
+  width: 100%;
+  padding-right: .4rem;
+  padding-left: .4rem;
+  padding-bottom: .4rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  /* background: #f6fcf6; */
+  background: #c0edc6;
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1); */
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.group__title {
+  text-indent: .4em;
+  font-size: 1.3rem;
+  margin-top: .8em;
+  margin-bottom: 0;
+  font-weight: 900;
+  color: #253525;
+  /* border-left: 2px solid gray; */
+  line-height: 1.8;
+}
+
+.group__container {
+  display: flex;
+  flex-wrap: wrap;
+  background: hsla(128, 56%, 84%, 0.1);
+  background: hsla(0, 0%, 100%, 0.24);
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+}
