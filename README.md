@@ -1,6 +1,6 @@
 # A 岛颜文字拾取器
 
-地址 [test.github.io](https://github.com/facebook/create-react-app)<br>
+地址 [https://jinglen.github.io/emoticons-picker/](https://jinglen.github.io/emoticons-picker/)<br>
 依嘴型分类的颜文字拾取器。<br>
 这是学习 react 过程中的一个练手项目。
 
