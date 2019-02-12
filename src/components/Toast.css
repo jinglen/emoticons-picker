@@ -1,0 +1,31 @@
+
+.g-toast {
+  position: fixed;
+  left: 50%;
+  padding-top: 1rem;
+  text-align: center;
+  transition: top .24s, opacity .8s;
+  transform: translate(-50%, 0);
+}
+
+.g-toast {
+  top: -5rem;
+  opacity: 0;
+}
+
+.g-toast--show {
+  transition: top .24s, opacity .14s .1s;
+  top: 0;
+  opacity: 1;
+}
+
+.g-toast__content {
+  display: inline-block;
+  margin-top: 1em;
+  font-size: 1rem;
+  background: #ffffff;
+  padding: .5em 1.2em;
+  border-radius: 2px;
+  color: #888888;
+  box-shadow: 0px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}

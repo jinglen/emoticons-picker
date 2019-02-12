@@ -8,17 +8,19 @@ function Emoticon (props) {
     onClick,
   } = props
   return (
-    <a 
+    <div 
+      title="点击复制"
       className="emoticon"  
       name={value}
       onClick={onClick}
     >
       {value}
-    </a>
+    </div>
   )
 }
 
 
+      // href="#copy"
 
 
 export default Emoticon;

@@ -5,13 +5,18 @@
   min-width: 25%;
   text-align: center;
   box-sizing: border-box;
-  line-height: 2;
+  line-height: 2.2;
   font-size: 1rem;
-
+  cursor: pointer;
 }
 
 .emoticon:active {
-  background-color: hsla(0, 0%, 95%, 0.5);
+  background-color: hsla(0, 0%, 100%, 0.6);
+}
+
+.emoticon:hover {
+  /* background-color: hsla(0, 0%, 100%, 0.1); */
+  box-shadow: inset 0 0 24px hsla(0, 0%, 100%, 0.6);
 }
 
 /* .emoticon::after {
