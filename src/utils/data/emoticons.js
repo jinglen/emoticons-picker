@@ -129,4 +129,4 @@ const emoticons = [
 
 ]
 
-module.exports = emoticons
+export default emoticons

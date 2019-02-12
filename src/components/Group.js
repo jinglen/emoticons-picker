@@ -10,9 +10,9 @@ function Group (props) {
   return (
     <section className="group">
       <h3 className="group__header">{title}</h3>
-      <p className="group__container">
+      <div className="group__container">
         {children}
-      </p>
+      </div>
     </section>
   )
 }

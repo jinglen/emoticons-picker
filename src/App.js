@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Group from "./components/Group";
+import emoticons from "./utils/data/emoticons";
 
 class App extends Component {
   render() {
@@ -9,18 +10,22 @@ class App extends Component {
         <header className="App__header">
         </header>
         {
+          emoticons.map(item => this.renderGroup(item.title, item.items))
         }
       </div>
     );
   }
 
 
-  renderGroup({
+  renderGroup(
     title,
-    emoticons,
-  }) {
+    emoticons
+  ) {
     return (
-      <Group title={title}>
+      <Group 
+        title={title} 
+        key={title}
+      >
         <p>lala</p>
       </Group>
     )    
@@ -32,8 +37,5 @@ class App extends Component {
 export default App;
 
 /*
-          <p>
-            A 岛颜文字拾取器
-          </p>
 
 */
