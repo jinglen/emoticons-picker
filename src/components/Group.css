@@ -3,7 +3,6 @@
   width: 100%;
   padding-right: .4rem;
   padding-left: .4rem;
-  padding-bottom: .4rem;
   box-sizing: border-box;
   margin: 0 auto;
   /* background: #f6fcf6; */
@@ -14,14 +13,13 @@
 }
 
 .group__title {
+  font-size: 0.8rem;
   text-indent: .4em;
-  font-size: 1.3rem;
-  margin-top: .8em;
-  margin-bottom: 0;
-  font-weight: 900;
-  color: #253525;
-  /* border-left: 2px solid gray; */
+  margin: 0.2em 0;
+  font-weight: 400;
+  color: #889588;
   line-height: 1.8;
+  /* border-left: 2px solid gray; */
 }
 
 .group__container {

@@ -1,6 +1,6 @@
 
 .emoticon {
-  padding: .4em .4em;
+  padding: calc(.4em + 3px) .4em;
   flex: 0 0 auto;
   min-width: 25%;
   text-align: center;

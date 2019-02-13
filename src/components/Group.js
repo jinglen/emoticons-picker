@@ -9,7 +9,7 @@ function Group (props) {
   } = props
   return (
     <section className="group">
-      <h3 className="group__title">{title}</h3>
+      <h5 className="group__title">{title}</h5>
       <div className="group__container">
         {children}
       </div>
