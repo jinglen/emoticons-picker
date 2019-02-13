@@ -8,6 +8,9 @@ class Duplicator {
     parentBox.style.height = '1px'
     parentBox.style.overflow = 'hidden'
     parentBox.style.opacity = '0'
+    parentBox.style.position = 'fixed'
+    parentBox.style.left = '0'
+    parentBox.style.top = '-800px'
     parentBox.appendChild(span)
     document.body.appendChild(parentBox)
 
