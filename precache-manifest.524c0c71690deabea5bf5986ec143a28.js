@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/emoticons-picker/static/js/runtime~main.44da24bb.js"
   },
   {
-    "revision": "fd30fd94445df430480d",
-    "url": "/emoticons-picker/static/js/main.fd30fd94.chunk.js"
+    "revision": "307b37963df7c5edc40d",
+    "url": "/emoticons-picker/static/js/main.307b3796.chunk.js"
   },
   {
     "revision": "e9aa47db525bd8ca1c6b",
     "url": "/emoticons-picker/static/js/2.e9aa47db.chunk.js"
   },
   {
-    "revision": "fd30fd94445df430480d",
-    "url": "/emoticons-picker/static/css/main.09a7ee59.chunk.css"
+    "revision": "307b37963df7c5edc40d",
+    "url": "/emoticons-picker/static/css/main.66c9aad0.chunk.css"
   },
   {
-    "revision": "0d52d50cfe4fc34e467d715bb4c3e649",
+    "revision": "3b5b45463dc2d675fb82414b33c0194b",
     "url": "/emoticons-picker/index.html"
   }
 ];
