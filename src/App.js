@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Toast isShow={this.state.isShowToast} content="复制成功" />
 
         <header className="App__header">

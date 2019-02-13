@@ -1,12 +1,12 @@
-.App {
-
+.app {
+  background: #c0edc6;
   max-width: 720px;
   margin: 0 auto;
   padding-bottom: 2rem;
 }
 
 
-.App__header {
+.app__header {
   font-size: 1.2rem;
   color: #2e352e;
   border-top: 1px solid transparent;
