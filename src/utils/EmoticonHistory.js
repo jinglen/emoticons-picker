@@ -23,7 +23,7 @@ class EmoticonHistory {
   }
 
   // 取得最近频繁使用的项
-  getFrequetlyUsedItems (count = 8) {
+  getFrequetlyUsedItems (count = 4) {
     return Object.entries(this.data)
       .sort((a, b) => b[1] - a[1])
       .map(c => c[0])
