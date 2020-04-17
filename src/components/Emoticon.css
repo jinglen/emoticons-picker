@@ -1,5 +1,7 @@
 
 .emoticon {
+  border: 0;
+  background-color: transparent;
   padding: calc(.4em + 3px) .25em;
   flex: 0 0 auto;
   min-width: 25%;
